@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-const mongoURI = 'mongodb+srv://dev:q8L5vasBS27ZkJf@cluster0.iz86xkq.mongodb.net/tasks?retryWrites=true&w=majority'
+const mongoURI = ""
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
